@@ -1,0 +1,27 @@
+body::before {
+    display: inline;
+    content: '';
+    height: 60px;
+    
+}
+
+.nav-buttons button:first-child{
+    border: 0;
+    padding: 0rem 0rem;
+    border:0rem;
+    border-radius: 0rem;
+    color: black;
+}
+
+.nav-buttons button:last-child{
+    border: 0;
+    padding: 0.5rem 0.8rem;
+    border: solid 0.12rem;
+    border-radius: 0.8rem;
+    background-color: #08783D;
+    color: white;
+}
+
+.footer-foot {
+    list-style: none;
+}
